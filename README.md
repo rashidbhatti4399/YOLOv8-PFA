@@ -9,7 +9,7 @@ This code is released to support **reproducibility**, **verification**, and **co
 
 ## 📌 Method Overview
 
-To better suit underwater degradation conditions, YOLOv8-twin-OD introduces three targeted modifications to the YOLOv8n baseline:
+To better suit underwater degradation conditions, YOLOv8-PFA introduces three targeted modifications to the YOLOv8n baseline:
 
 1. **Parallel Fusion Attention (PFA)**  
    The PFA module jointly enhances **channel-wise semantics** and **spatial localization** by computing channel and spatial attention **in parallel from the same input feature map**.  
@@ -28,3 +28,17 @@ To better suit underwater degradation conditions, YOLOv8-twin-OD introduces thre
 ---
 
 ## 📂 Repository Structure
+
+YOLOv8-twin-OD/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── configs/
+│ ├── yolov8-PFA.yaml
+│ └── urpc2020.yaml
+├── src/
+│ ├── train.py
+│ ├── val.py
+│ └── custom_PFA.py
+└── weights/
+└── best.pt
