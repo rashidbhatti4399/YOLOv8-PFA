@@ -1,0 +1,8 @@
+# YOLOv8 dataset configuration
+path: D:\Research\Python\pose-detection-keypoints-estimation-yolov8\Underwater dataset\RUOD
+train: images/train
+val: images/test
+
+# Classes
+nc: 10
+names: ['holothurian', 'echinus', 'scallop', 'starfish', 'fish', 'corals', 'diver', 'cuttlefish', 'turtle', 'jellyfish']

@@ -1,0 +1,15 @@
+# Dataset paths
+path: D:\Research\Python\pose-detection-keypoints-estimation-yolov8\Underwater dataset\URPC2020
+# path: D:\Research\Python\pose-detection-keypoints-estimation-yolov8\Dataset  # base path
+train: images/train  # relative to 'path'
+val: images/val      # relative to 'path'
+
+# Number of classes
+nc: 4
+# Class names dictionary
+names:
+  0: holothurian
+  1: echinus
+  2: scallop
+  3: starfish
+# names: ['bin_cover', 'buoy_yellow', 'buoy_green', 'buoy_red', 'channel', 'qual_gate', 'torpedo_cover', 'torpedo_hole', 'torpedo_target']
