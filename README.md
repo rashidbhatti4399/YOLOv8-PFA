@@ -26,19 +26,3 @@ To better suit underwater degradation conditions, YOLOv8-PFA introduces three ta
    The **WIoUv3 regression loss** is adopted during training to stabilize bounding-box optimization under **noisy and low-IoU conditions**, which are common for small and blurred underwater targets.
 
 ---
-
-## 📂 Repository Structure
-
-YOLOv8-twin-OD/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── configs/
-│ ├── yolov8-PFA.yaml
-│ └── urpc2020.yaml
-├── src/
-│ ├── train.py
-│ ├── val.py
-│ └── custom_PFA.py
-└── weights/
-└── best.pt
