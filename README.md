@@ -58,7 +58,7 @@ Training settings:
 
 This repository provides all necessary components to reproduce the experiments reported in the paper, including:
 - Complete model implementation  
-- Custom modules (PFA and DWConv)  
+- Custom modules (PFA)  
 - Training and evaluation scripts  
 - Configuration files  
 - Pretrained weights  
@@ -67,6 +67,8 @@ Using the provided scripts and configuration files, all results in the paper can
 ## 📚 Citation
 
 If you use this code or model in your research, please cite our paper:
+
+```bibtex
 @article{rashid2026yolov8n,
   title={YOLOv8n-PFA: A Parallel Fusion Attention Network for Enhanced Underwater Target Detection in Challenging Environments},
   author={Rashid, Muhammad and et al.},
