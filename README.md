@@ -29,7 +29,7 @@ To better suit underwater degradation conditions, YOLOv8-PFA introduces three ta
 ## 📊 Dataset
 
 This implementation uses the URPC2020 public underwater object detection dataset.
-Please download the dataset from the official source and update the dataset path in: configs/urpc2020.yaml
+- Please download the dataset from the official source and update the dataset path in: configs/urpc2020.yaml
 
 ## 🚀 Training
 
