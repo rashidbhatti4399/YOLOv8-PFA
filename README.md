@@ -64,7 +64,7 @@ This repository provides all necessary components to reproduce the experiments r
 - Pretrained weights  
 Using the provided scripts and configuration files, all results in the paper can be reproduced.
 
-📚 Citation
+## 📚 Citation
 
 If you use this code or model in your research, please cite our paper:
 @article{your_paper_2025,
