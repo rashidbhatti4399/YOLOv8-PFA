@@ -67,12 +67,13 @@ Using the provided scripts and configuration files, all results in the paper can
 ## 📚 Citation
 
 If you use this code or model in your research, please cite our paper:
-@article{your_paper_2025,
+@article{rashid2026yolov8n,
   title={YOLOv8n-PFA: A Parallel Fusion Attention Network for Enhanced Underwater Target Detection in Challenging Environments},
-  author={Muhammad Rashid et al.},
-  journal={Frontier in Marine Science},
+  author={Rashid, Muhammad and et al.},
+  journal={Frontiers in Marine Science},
   year={2026}
 }
+
 
 
 
