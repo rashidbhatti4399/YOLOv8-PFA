@@ -44,24 +44,24 @@ python src/train.py \
 
 Training settings:
 
-Epochs: 140
-Batch size: 32
-Optimizer: AdamW
-Initial learning rate: 4e-4
-LR scheduler: Cosine
-AMP: enabled
-Loss: WIoUv3 for bounding-box regression
-Data augmentation: RandAugment, Mosaic, HSV jitter, random scaling, translation, and erasing
+--Epochs: 140
+--Batch size: 32
+--Optimizer: AdamW
+--Initial learning rate: 4e-4
+--LR scheduler: Cosine
+--AMP: enabled
+--Loss: WIoUv3 for bounding-box regression
+--Data augmentation: RandAugment, Mosaic, HSV jitter, random scaling, translation, and erasing
 
 🔁 Reproducibility
 
 This repository provides:
-Complete model implementation
-Custom modules (PFA, DWConv)
-Training and evaluation scripts
-Configuration files
-Pretrained weights
-All experiments reported in the paper can be reproduced using the provided configurations.
+--Complete model implementation
+--Custom modules (PFA, DWConv)
+--Training and evaluation scripts
+--Configuration files
+--Pretrained weights
+--All experiments reported in the paper can be reproduced using the provided configurations.
 
 📚 Citation
 
