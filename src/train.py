@@ -11,12 +11,12 @@ if __name__ == "__main__":
     print(f"Running on: {device}")
 
     try:
-        model = YOLO("yolov8-PFA-DwConv.yaml").load("yolov8n.pt")
+        model = YOLO("yolov8-PFA-DwConv.yaml")
         print("✓ Model loaded successfully!")
     except Exception as e:
         print(f"Model loading failed: {e}")
         print("Trying fallback initialization...")
-        model = YOLO("yolov8-PFA-DWConv.yaml").load("yolov8n.pt")
+        model = YOLO("yolov8-PFA-DWConv.yaml")
 
 
     print("\nStarting single-phase training...")
