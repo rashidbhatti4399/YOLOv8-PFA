@@ -71,7 +71,7 @@ If you use this code or model in your research, please cite our paper:
 ```bibtex
 @article{rashid2026yolov8n,
   title={YOLOv8n-PFA: A Parallel Fusion Attention Network for Enhanced Underwater Target Detection in Challenging Environments},
-  author={Rashid, Muhammad and et al.},
+  author={Muhammad Rashid and et al.},
   journal={Frontiers in Marine Science},
   year={2026}
 }
