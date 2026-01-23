@@ -26,12 +26,12 @@ To better suit underwater degradation conditions, YOLOv8-PFA introduces three ta
    The **WIoUv3 regression loss** is adopted during training to stabilize bounding-box optimization under **noisy and low-IoU conditions**, which are common for small and blurred underwater targets.
 
 ---
-📊 Dataset
+## 📊 Dataset
 
 This implementation uses the URPC2020 public underwater object detection dataset.
 Please download the dataset from the official source and update the dataset path in: configs/urpc2020.yaml
 
-🚀 Training
+## 🚀 Training
 
 To train YOLOv8-PFA on URPC2020: 
 python src/train.py \
@@ -44,24 +44,25 @@ python src/train.py \
 
 Training settings:
 
---Epochs: 140
---Batch size: 32
---Optimizer: AdamW
---Initial learning rate: 4e-4
---LR scheduler: Cosine
---AMP: enabled
---Loss: WIoUv3 for bounding-box regression
---Data augmentation: RandAugment, Mosaic, HSV jitter, random scaling, translation, and erasing
+- Epochs: 140
+- Batch size: 32
+- Optimizer: AdamW
+- Initial learning rate: 4e-4
+- LR scheduler: Cosine
+- AMP: enabled
+- Loss: WIoUv3 for bounding-box regression
+- Data augmentation: RandAugment, Mosaic, HSV jitter, random scaling, translation, and erasing
 
-🔁 Reproducibility
 
-This repository provides:
---Complete model implementation
---Custom modules (PFA, DWConv)
---Training and evaluation scripts
---Configuration files
---Pretrained weights
---All experiments reported in the paper can be reproduced using the provided configurations.
+## 🔁 Reproducibility
+
+This repository provides all necessary components to reproduce the experiments reported in the paper, including:
+- Complete model implementation  
+- Custom modules (PFA and DWConv)  
+- Training and evaluation scripts  
+- Configuration files  
+- Pretrained weights  
+Using the provided scripts and configuration files, all results in the paper can be reproduced.
 
 📚 Citation
 
