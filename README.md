@@ -36,8 +36,8 @@ This implementation uses the URPC2020 public underwater object detection dataset
 To train YOLOv8-PFA on URPC2020: 
 python src/train.py \
   --model configs/yolov8-PFA.yaml \
-  --data configs/urpc2020.yaml \
-  --epochs 140 \
+  --data configs/URPC2020.yaml \
+  --epochs 100 \
   --batch 32 \
   --imgsz 640 \
   --optimizer AdamW
