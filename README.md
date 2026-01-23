@@ -24,6 +24,10 @@ To better suit underwater degradation conditions, YOLOv8-PFA introduces three ta
 
 3. **Wise-IoU v3 (WIoUv3) Loss**  
    The **WIoUv3 regression loss** is adopted during training to stabilize bounding-box optimization under **noisy and low-IoU conditions**, which are common for small and blurred underwater targets.
+   WIoUv3 integration is present in the following files:
+   - ultralytics/nn/utils/loss.py,
+   - ultralytics/nn/utils/metrics.py,
+   - ultralytics/nn/utils/tal.py
 
 ---
 ## 📊 Dataset
