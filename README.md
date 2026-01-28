@@ -48,7 +48,7 @@ python src/train.py \
 
 Training settings:
 
-- Epochs: 140
+- Epochs: 100
 - Batch size: 32
 - Optimizer: AdamW
 - Initial learning rate: 4e-4
