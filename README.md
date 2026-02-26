@@ -1,6 +1,6 @@
-# YOLOv8-PFA: Parallel Fusion Attention for Underwater Object Detection
+# YOLOv8n-PFA: Parallel Fusion Attention for Underwater Object Detection
 
-This repository provides the official implementation of **YOLOv8-PFA**, a modified YOLOv8-based object detector designed for underwater object detection.  
+This repository provides the official implementation of **YOLOv8n-PFA**, a modified YOLOv8-based object detector designed for underwater object detection.  
 he proposed model introduces **three targeted modifications** to improve detection robustness while maintaining computational efficiency.
 
 This code is released to support **reproducibility**, **verification**, and **community adoption**.
@@ -37,7 +37,7 @@ This implementation uses the URPC2020 public underwater object detection dataset
 
 ## 🚀 Training
 
-To train YOLOv8-PFA on URPC2020: 
+To train YOLOv8n-PFA on URPC2020: 
 python src/train.py \
   --model configs/yolov8-PFA.yaml \
   --data configs/URPC2020.yaml \
@@ -74,7 +74,7 @@ If you use this code or model in your research, please cite our paper:
 
 ```bibtex
 @article{rashid2026yolov8n,
-  title={YOLOv8n-PFA: A Parallel Fusion Attention Network for Enhanced Underwater Target Detection in Challenging Environments},
+  title={YOLOv8n-PFA: A Parallel Fusion Attention Network for Enhanced Target Detection in Challenging Environments},
   author={Muhammad Rashid and et al.},
   journal={Frontiers in Marine Science},
   year={2026}
